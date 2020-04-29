@@ -27,7 +27,7 @@ body {
 }
 
 .left{
-  font-size: 18px
+  font-size: 18px;
 }
 
 .header{
@@ -75,7 +75,7 @@ ul{
 
 
 .carousel-item {
-    max-height: 650px;
+    height: 650px;
     max-width: 100%;
     object-fit: cover;
   }
