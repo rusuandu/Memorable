@@ -10,11 +10,14 @@
             box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #e2e2e2;
   background-attachment: fixed;
   overflow-x: hidden;
   font-family: sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
 }
 
 
@@ -23,10 +26,17 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.left{
+  font-size: 18px
+}
+
 .header{
     max-width: 100%;
     color: #ffffff;
-    padding: 8px 0;
+}
+
+ul{
+  margin-bottom: 0 !important;
 }
 
 .logo{
@@ -57,6 +67,11 @@ html {
   
 }
 
+
+
+.icon{
+  font-size: 24px;
+}
 
 
 .carousel-item {
@@ -100,7 +115,7 @@ html {
   color: black !important;
 }
 
-.footer{
+.section{
   background-color: #0f3654;
   color: #ffffff !important;
   padding: 80px 0;
@@ -133,7 +148,40 @@ ul li a:hover{
   color: #3b0c0c;
 }
 
+.prog{
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
 
+/* ----------------------------------------------- */
+/* FORM */
+/* ----------------------------------------------- */
 
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
 
-  
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
