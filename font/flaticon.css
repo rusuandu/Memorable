@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 26/04/2020 20:00
+  	Creation date: 30/04/2020 08:18
   	*/
 
 @font-face {
@@ -33,12 +33,13 @@ margin-left: 20px;
 .flaticon-congratulation:before { content: "\f100"; }
 .flaticon-ph-balance:before { content: "\f101"; }
 .flaticon-values:before { content: "\f102"; }
-.flaticon-student:before { content: "\f103"; }
-.flaticon-sport-team:before { content: "\f104"; }
-.flaticon-group:before { content: "\f105"; }
-.flaticon-gift-card:before { content: "\f106"; }
-.flaticon-call:before { content: "\f107"; }
-.flaticon-mail:before { content: "\f108"; }
-.flaticon-facebook:before { content: "\f109"; }
-.flaticon-instagram:before { content: "\f10a"; }
-.flaticon-youtube:before { content: "\f10b"; }
+.flaticon-sport-team:before { content: "\f103"; }
+.flaticon-group:before { content: "\f104"; }
+.flaticon-gift-card:before { content: "\f105"; }
+.flaticon-call:before { content: "\f106"; }
+.flaticon-mail:before { content: "\f107"; }
+.flaticon-facebook:before { content: "\f108"; }
+.flaticon-instagram:before { content: "\f109"; }
+.flaticon-youtube:before { content: "\f10a"; }
+.flaticon-girl:before { content: "\f10b"; }
+.flaticon-interface:before { content: "\f10c"; }
