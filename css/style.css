@@ -73,7 +73,7 @@ ul{
 
 .carousel-item {
   height: 65vh;
-  min-height: 400px;
+  min-height: 600px;
   background: no-repeat center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -140,35 +140,7 @@ ul li a:hover{
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height:650px;
+  height: 60vh;
   background-attachment: fixed;
 }
-
-/* ----------------------------------------------- */
-/* FORM */
-/* ----------------------------------------------- */
-
-.contact-form {
-  width: 60%;
-  margin: 0 auto;
-}
-
-input[type=text],
-input[type=email],
-select,
-textarea {
-  width: 100%;
-  padding: 7px;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-}
-
-textarea {
-  height: 100px;
-}
-
-input[type=checkbox] {
-  margin: 10px 5px 10px 0;
-}
-
-*:focus {outline: none;}

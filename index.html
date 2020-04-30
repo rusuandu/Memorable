@@ -359,10 +359,26 @@
               <div class="container py-5">
                 <div class="text-center text-white">
                   <h2>Programează o întâlnire!</h2>
-                   <p class="lead py-5">Completează datele tale de contact și câteva detalii, iar noi bucuroși te vom contacta pentru a stabili o întâlnire.</p>
+                   <p class="lead pt-5">Completează datele tale de contact și câteva detalii, iar noi bucuroși te vom contacta pentru a stabili o întâlnire.</p>
                 </div>
-                <div class="row">
-                </div>
+                     
+                          <form method="post" action="#" class="contact-form py-5">
+                            <div class="form-row">
+                              <div class="col">
+                                <input class="form-control form-control-lg" type="text" name="name" id="name" placeholder="Nume si Prenume" required>
+                                <input  class="form-control form-control-lg my-5" type="email" name="email" id="email" placeholder="E-mail" required>
+                                <input  class="form-control form-control-lg py-4" type="text" name="email" id="phone" placeholder="Numar de telefon" required>
+                            </div>
+                       
+                            <div class="col">
+                                <textarea class="form-control" style="height: 100%;" name="message" placeholder="Detalii eveniment"></textarea>
+                            </div>
+                          </div>
+                            </form>
+                            <div class="row">
+                              <input class="form-control btn btn-danger bg-red btn-lg" type="submit" value="Trimite mesaj!">
+                           </div>
+
               </div>
             </section>
 
