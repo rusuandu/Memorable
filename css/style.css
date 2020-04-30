@@ -73,8 +73,8 @@ ul{
 
 .carousel-item {
   height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
+  min-height: 400px;
+  background: no-repeat center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -102,6 +102,10 @@ ul{
   background-color: #0f3654;
   color: #ffffff !important;
   padding: 80px 0;
+}
+
+.flaticon-interface::before{
+  margin-left: 0px !important;
 }
 
 h1{
