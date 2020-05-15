@@ -79,14 +79,12 @@ ul{
 
 .carousel-image-1 {
   background: url('../images/image1.jpg');
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 
 .carousel-image-2 {
   background: url('../images/image2.jpg');
-  background-attachment: fixed;
   background-size: cover;
   background-position: center bottom;
   
@@ -95,7 +93,6 @@ ul{
 
 .carousel-image-3 {
   background: url('../images/image3.jpg');
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
@@ -161,4 +158,11 @@ ul li a:hover{
   min-height:650px;
   height: 60vh;
   background-attachment: fixed;
+}
+
+img{
+  display: inline-block;
+  max-width: auto;
+  max-height: 250px;
+  padding: 1rem;
 }
