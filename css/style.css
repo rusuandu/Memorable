@@ -166,3 +166,7 @@ img{
   max-height: 250px;
   padding: 1rem;
 }
+
+#navbarNav{
+   justify-content:center;
+}
